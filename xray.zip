@@ -53,7 +53,7 @@ apt-get update -y
 apt install -y wget curl
 print_install "Menambakan Data Izin Akses Script"
 rm -rf fix-izin.sh
-wget -O fix-izin.sh https://raw.githubusercontent.com/nikumodian-blip/v4/main/fix-izin.sh
+wget -O fix-izin.sh https://raw.githubusercontent.com/nikumodian-blip/v1/main/fix-izin.sh
 chmod +x fix-izin.sh
 ./fix-izin.sh
 print_install "Menginstall Packet Yang Dibutuhkan"
