@@ -710,7 +710,7 @@ print_success "All Packet"
 function menuv4(){
 clear
 print_install "Memasang Menu Packet"
-wget -O update.sh https://raw.githubusercontent.com/arivpnstores/v4/main/update.sh
+wget -O update.sh https://raw.githubusercontent.com/arivpnstores/v1/main/update.sh
 chmod +x update.sh
 bash update.sh
 }
